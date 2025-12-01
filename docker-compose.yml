@@ -6,6 +6,6 @@ services:
     ports:
       - "8080:80"
     volumes:
-      - ${CONFIG_FILE:-./config/public/config.json}:/usr/share/nginx/html/config.json
-      - ${ASSETS_DIR:-./config/public/assets}:/usr/share/nginx/html/assets
+      - ${CONFIG_FILE:-./project/public/config.json}:/usr/share/nginx/html/config.json
+      - ${ASSETS_DIR:-./project/public/assets}:/usr/share/nginx/html/assets
     restart: always
