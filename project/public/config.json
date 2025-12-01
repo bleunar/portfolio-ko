@@ -1,0 +1,73 @@
+{
+    "profile": {
+        "name": "John Doe",
+        "role": "Computer Science Student",
+        "bio": "Passionate about building scalable web applications and exploring new technologies.",
+        "avatar": "/assets/avatar.svg",
+        "location": "San Francisco, CA",
+        "email": "john.doe@example.com"
+    },
+    "socials": {
+        "github": "https://github.com",
+        "linkedin": "https://linkedin.com",
+        "twitter": "https://twitter.com"
+    },
+    "skills": [
+        {
+            "category": "Frontend",
+            "items": [
+                "React",
+                "TypeScript",
+                "Tailwind CSS",
+                "Next.js"
+            ]
+        },
+        {
+            "category": "Backend",
+            "items": [
+                "Node.js",
+                "Python",
+                "PostgreSQL",
+                "Docker"
+            ]
+        },
+        {
+            "category": "Tools",
+            "items": [
+                "Git",
+                "VS Code",
+                "Linux",
+                "AWS"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "title": "Portfolio Website",
+            "description": "A personal portfolio website built with React and Tailwind CSS.",
+            "tags": [
+                "React",
+                "Tailwind",
+                "Docker"
+            ],
+            "link": "https://github.com",
+            "image": "/assets/project-placeholder.svg"
+        },
+        {
+            "title": "E-commerce Platform",
+            "description": "A full-stack e-commerce application with payment integration.",
+            "tags": [
+                "Next.js",
+                "Stripe",
+                "Prisma"
+            ],
+            "link": "https://github.com",
+            "image": "/assets/project-placeholder.svg"
+        }
+    ],
+    "contact": {
+        "title": "Get in Touch",
+        "description": "I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!",
+        "cta": "Say Hello"
+    }
+}
