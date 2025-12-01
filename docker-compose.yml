@@ -2,9 +2,8 @@ name: portfolio-ko
 
 services:
   portfolio-ko:
+    container_name: portfolio-ko
     build: ./project
-    ports:
-      - "8080:80"
     volumes:
       - ${CONFIG_FILE:-./project/public/config.json}:/usr/share/nginx/html/config.json
       - ${ASSETS_DIR:-./project/public/assets}:/usr/share/nginx/html/assets
